@@ -21,7 +21,7 @@ class Solution:
             else:
                 break
         hq.heapify(hps)
-        for i in range(k, n):g
+        for i in range(k, n):
             if c[kees[i]] >= hps[0]:
                 hq.heappushpop(hps, c[kees[i]])
         ans = set()
