@@ -21,11 +21,9 @@ class Solution:
             else:
                 break
         hq.heapify(hps)
-        for i in range(k, n):
-            print("before", hps)
+        for i in range(k, n):g
             if c[kees[i]] >= hps[0]:
                 hq.heappushpop(hps, c[kees[i]])
-            print("after", hps)
         ans = set()
         for i in hps:
             for ele in ref[i]:
