@@ -1,6 +1,7 @@
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         '''
+            https://leetcode.com/problems/group-anagrams/description/
             Time: O(n*avg_length_of_each_string) in worst case i.e. O(n*100) as n <= 100
             Space: O(n)
         '''

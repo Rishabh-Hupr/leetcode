@@ -1,6 +1,7 @@
 class Solution:
     def sortedSquares(self, arr: List[int]) -> List[int]:
         '''
+            https://leetcode.com/problems/squares-of-a-sorted-array/description/
             Time: O(n) + O(n)
             Space: O(n)
         '''

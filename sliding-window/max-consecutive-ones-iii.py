@@ -1,6 +1,7 @@
 class Solution:
     def longestOnes(self, arr: List[int], k: int) -> int:
         '''
+            https://leetcode.com/problems/max-consecutive-ones-iii/description/
             Time: O(n + number of times zeros occur > k in a window) ~ O(n)
             Space: O(1)
         '''

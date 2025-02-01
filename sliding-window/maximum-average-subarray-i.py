@@ -1,6 +1,7 @@
 class Solution:
     def findMaxAverage(self, arr: List[int], k: int) -> float:
         '''
+            https://leetcode.com/problems/maximum-average-subarray-i/description/
             Time: O(n)
             Space: (1)
         '''

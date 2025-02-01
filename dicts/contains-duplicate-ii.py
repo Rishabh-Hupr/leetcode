@@ -1,6 +1,7 @@
 class Solution:
     def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
         '''
+            https://leetcode.com/problems/contains-duplicate-ii/description/
             Time: O((n-k)*k)
             Space: O(k)
         '''

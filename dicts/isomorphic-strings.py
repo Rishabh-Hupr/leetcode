@@ -27,6 +27,7 @@ class Solution:
         # return True
 
         '''
+            https://leetcode.com/problems/isomorphic-strings/description/
             Time: O(n)
             Space: O(n)
         '''

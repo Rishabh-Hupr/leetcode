@@ -1,6 +1,7 @@
 class Solution:
     def searchInsert(self, arr: List[int], val: int) -> int:
         '''
+            https://leetcode.com/problems/search-insert-position/description/
             Time: O(logn)
             Space: O(1)
         '''

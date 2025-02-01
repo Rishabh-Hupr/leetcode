@@ -1,6 +1,7 @@
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         '''
+            https://leetcode.com/problems/majority-element/description/
             ### Boyer-Moore Voting Algorithm ###
             Time: O(n)
             Space: O(1)

@@ -1,6 +1,7 @@
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         '''
+            https://leetcode.com/problems/valid-palindrome/description/
             Time: O(n)
             Space: O(1)
             NOTE: I did the whole setup here, without using inbuilt libraries

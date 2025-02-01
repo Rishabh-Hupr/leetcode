@@ -2,6 +2,7 @@ import heapq as hq
 class Solution:
     def kClosest(self, points: List[List[int]], k: int) -> List[List[int]]:
         '''
+            https://leetcode.com/problems/k-closest-points-to-origin/description/
             Time: O(k) + O((n-k)logk) + O(k) + O(klogk) ~ O((n-k)logk)
             Space: O(n) + O(k) ~ O(n)
         '''

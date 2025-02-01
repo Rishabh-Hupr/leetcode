@@ -4,6 +4,7 @@
 class Solution:
     def firstBadVersion(self, n: int) -> int:
         '''
+            https://leetcode.com/problems/first-bad-version/description/
             Time: O(logn)
             Space: O(1)
         '''

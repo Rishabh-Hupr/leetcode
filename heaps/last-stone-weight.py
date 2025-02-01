@@ -1,6 +1,7 @@
 class Solution:
     def lastStoneWeight(self, stones: List[int]) -> int:
         '''
+            https://leetcode.com/problems/last-stone-weight/description/
             Time: O(n) + O(nlogn) ~= O(nlogn)
             Space: O(n)
         '''

@@ -2,6 +2,7 @@ from collections import defaultdict
 class Solution:
     def validPath(self, n: int, arr: List[List[int]], src: int, dst: int) -> bool:
         '''
+            https://leetcode.com/problems/find-if-path-exists-in-graph/description/
             Time: O(E) + O(V+E) ~= O(V+E)
             Space: O(V) + O(V+E) + O(V) ~= O(V+E)
             Algo used is DFS

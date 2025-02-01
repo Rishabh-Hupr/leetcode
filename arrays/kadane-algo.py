@@ -1,6 +1,7 @@
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         '''
+            https://leetcode.com/problems/maximum-subarray/description/
             Time: O(n)
             Space: O(1)
         '''

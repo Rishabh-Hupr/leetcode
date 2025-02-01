@@ -1,4 +1,7 @@
 class Codec:
+    '''
+        https://leetcode.com/problems/encode-and-decode-tinyurl/description/
+    '''
     def __init__(self):
         self.store = dict()
 

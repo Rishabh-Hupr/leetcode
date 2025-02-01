@@ -1,6 +1,7 @@
 class Solution:
     def findAnagrams(self, s: str, p: str) -> List[int]:
         '''
+            https://leetcode.com/problems/find-all-anagrams-in-a-string/description/
             Time: O(len(s))
             Space: O(1) ~ O(2 * 26)
         '''

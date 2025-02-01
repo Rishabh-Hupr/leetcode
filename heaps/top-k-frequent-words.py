@@ -3,6 +3,7 @@ import heapq as hq
 class Solution:
     def topKFrequent(self, words: List[str], k: int) -> List[str]:
         '''
+            https://leetcode.com/problems/top-k-frequent-words/description/
             Time: O(unique_frequencies log unique_frequencies) + O(unique_frequencies) + O(k log unique_frequencies)
             Space: O(unique_frequencies)
         '''

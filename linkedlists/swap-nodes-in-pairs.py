@@ -6,6 +6,7 @@
 class Solution:
     def swapPairs(self, head: Optional[ListNode]) -> Optional[ListNode]:
         '''
+            https://leetcode.com/problems/swap-nodes-in-pairs/description/
             Time: O(n)
             Space: O(1)
         '''

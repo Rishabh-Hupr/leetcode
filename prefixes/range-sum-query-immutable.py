@@ -1,5 +1,9 @@
 class NumArray:
-
+    '''
+        https://leetcode.com/problems/range-sum-query-immutable/description/
+        Time: O(1)
+        Space: O(n)
+    '''
     def __init__(self, nums: List[int]):
         self.nums = nums
         self.prefix = [0]

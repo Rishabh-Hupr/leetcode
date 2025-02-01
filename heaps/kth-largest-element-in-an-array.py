@@ -2,18 +2,22 @@ import heapq as hq
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
         '''
+            https://leetcode.com/problems/kth-largest-element-in-an-array/description/
             I have written 2 solutions here, use one at a time
+            Time: O(n) + O(n) + O(klogn)
+            Space: O(1)
         '''
-        # # space O(1)
-        # # time O(n) + O(n) + O(klogn)
         # for i, val in enumerate(nums):
         #     nums[i] = -val
         # hq.heapify(nums)
         # for i in range(k-1):
         #     hq.heappop(nums)
         # return -hq.heappop(nums)
-        # space O(k)
-        # time O(k) + O(k) + O((n-k)log(k))
+        
+        '''
+            Time: O(k) + O(k) + O((n-k)log(k))
+            Space: O(k)
+        '''
         hps = list()
         for i in range(k):
             hps.append(nums[i])

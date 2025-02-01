@@ -1,6 +1,7 @@
 class Solution:
     def reverseWords(self, sent: str) -> str:
         '''
+            https://leetcode.com/problems/reverse-words-in-a-string/description/
             Time: O(n * (length of all words in total))
             Space: O(number_of_words + C)
             NOTE: With using str.split()

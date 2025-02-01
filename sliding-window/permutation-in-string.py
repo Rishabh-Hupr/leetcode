@@ -1,6 +1,7 @@
 class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:
         '''
+            https://leetcode.com/problems/permutation-in-string/description/
             Time: O(len(s1))
             Space: O(len(s1) + len(s2))
         '''

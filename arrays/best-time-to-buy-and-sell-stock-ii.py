@@ -1,6 +1,7 @@
 class Solution:
     def maxProfit(self, arr: List[int]) -> int:
         '''
+            https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/
             Time: O(n)
             Space: O(1)
         '''

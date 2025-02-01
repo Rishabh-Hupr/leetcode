@@ -1,6 +1,7 @@
 class Solution:
     def lengthOfLongestSubstring(self, arr: str) -> int:
         '''
+            https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
             Time: O(n + number of times duplicates occur in sequence) ~ O(n)
             Space: O(unique_elements)
         '''

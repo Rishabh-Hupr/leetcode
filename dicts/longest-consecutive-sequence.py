@@ -1,6 +1,7 @@
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
         '''
+            https://leetcode.com/problems/longest-consecutive-sequence/description/
             Time: O(n)
             Space: O(n)
         '''

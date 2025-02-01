@@ -3,6 +3,7 @@ import heapq as hq
 class Solution:
     def topKFrequent(self, arr: List[int], k: int) -> List[int]:
         '''
+            https://leetcode.com/problems/top-k-frequent-elements/description/
             Time: O(n) + O(n) + O(n) + O(k) + O((n-k)logk) + O(n)
             Space: O(n) + O(n) + O(n) + O(n)
         '''

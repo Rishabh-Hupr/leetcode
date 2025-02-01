@@ -8,6 +8,7 @@ import heapq as hq
 class Solution:
     def mergeKLists(self, arr: List[Optional[ListNode]]) -> Optional[ListNode]:
         '''
+            https://leetcode.com/problems/merge-k-sorted-lists/
             Time: O(k) + O(nlogk) ~= O(nlogk)
             Space: O(k)
         '''

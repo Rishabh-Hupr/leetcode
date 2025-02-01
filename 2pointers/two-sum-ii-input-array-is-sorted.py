@@ -1,6 +1,7 @@
 class Solution:
     def twoSum(self, arr: List[int], target: int) -> List[int]:
         '''
+            https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
             Time: O(n)
             Space: O(1)
         '''
