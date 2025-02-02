@@ -1,7 +1,7 @@
 class Solution:
     def trap(self, arr: List[int]) -> int:
         '''
-            https://leetcode.com/problems/trapping-rain-water/description/
+            https://leetcode.com/problems/trapping-rain-water/description/w
             Time: O(n) + O(n) + O(n)
             Space: O(n) + O(n)
         '''
