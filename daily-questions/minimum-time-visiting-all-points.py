@@ -1,6 +1,7 @@
 class Solution:
     def minTimeToVisitAllPoints(self, points: List[List[int]]) -> int:
         '''
+            https://leetcode.com/problems/minimum-time-visiting-all-points/description/
             Time: O(n)
             Space: O(1)
         '''
