@@ -8,7 +8,7 @@ The prime modulus works to reduce the chances of collision for creating hashes o
 {X, any numbers in the world, X ke apne factors(especially chote factors)}
 ```
 
-* Whi agr prime number lete h, let's say X, toh V1 aur V2 ke proper divide hone(modulus resulting in 0) ki possibilities ke 
+* Whi agr prime number lete h, let's say X, toh V1 aur V2 ke proper divide hone(modulus resulting in 0) ki possibilities ka set hoga ye
 ```
 {X, any numbers in the world}
 ```
@@ -19,4 +19,4 @@ Toh basically V1 and V2 ka modulus X(big prime number) karne ke baad same output
 
 ## HENCE, USING A BIG PRIME FOR MODULO HELPS IN REDUCING THE POTENTIAL EASY COLLISIONS
 
-### However, collisions can still happen, and we should know the collision handling strategies, for ex if V1 and V2 are numbers bigger than X prime number and V1, V1 both are multiples of X.
+### However, collisions can still happen, and we should know the collision handling strategies, for ex if V1 and V2 are numbers bigger than X prime number and V1, V2 both are multiples of X.
